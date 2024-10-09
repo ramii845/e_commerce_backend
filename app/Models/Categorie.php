@@ -9,5 +9,9 @@ class Categorie extends Model
 {
     use HasFactory;
     protected $fillable=["nomcategorie","imagecategorie"];
+    public function scategories()
+{
+return $this->hasMany(Scategorie::class ,"categorieID");
+}
     
 }
