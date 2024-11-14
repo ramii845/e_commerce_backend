@@ -1,5 +1,5 @@
 <?php
-
+//////////////////////
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\ScategorieController;
 use Illuminate\Http\Request;
